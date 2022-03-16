@@ -1,0 +1,34 @@
+/* start margin 0 to all elements */
+* {
+  margin: 0;
+}
+/* set the navbar hieght and background color, 1em =16px */
+#navbar {
+  height: 5rem;
+  background: whitesmoke;
+}
+
+/* set logo font-size and color */
+.logo {
+  font-size: 20px;
+  color: #ef4036;
+}
+
+/* for the class hero, set color, background and min-height with calc- subtract navbar height from 100% of the screen hight, used Chrome inpect to check it */
+.hero {
+  min-height: calc(100vh - 5rem);
+  background: #222;
+  color: #fff;
+}
+
+/* add the color and font-size for spa, use parent and child */
+.hero span {
+  color: #ef4036;
+  font-size: 30px;
+}
+
+/* add the background and color for the button */
+.hero-btn {
+  background: #ef4036;
+  color: #fff;
+}
